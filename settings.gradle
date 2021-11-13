@@ -1,0 +1,4 @@
+rootProject.name = 'direct-pay-demo'
+include 'src:main'
+findProject(':src:main')?.name = 'main'
+
